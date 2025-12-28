@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Menú superior */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+/* Búsqueda simple e imágenes */
+.center {
+    margin-top: 150px;
+    text-align: center;
+}
+
+.search-box {
+    width: 450px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid #dcdcdc;
+    font-size: 16px;
+}
+
+.btn {
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+
+/* Búsqueda avanzada */
+.advanced-container {
+    margin: 50px;
+    max-width: 700px;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.field label {
+    width: 250px;
+    font-size: 14px;
+}
+
+.field input {
+    flex: 1;
+    padding: 6px;
+}
+
+.submit-container {
+    text-align: right;
+}
+
+.submit-container input {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
